@@ -1,0 +1,40 @@
+
+.quiz-box{
+    text-align: center;
+    border: 1px solid;
+    height: 500px;
+    background-color: aqua;
+}
+div{
+    margin: 2px;
+}
+.question{
+    background-color: gainsboro;
+    border: 2px solid;
+   border-radius: 20px;
+}
+.board{
+     top: 20%;
+      position: absolute;
+      width: 50%;
+      left: 20%;
+      /* transform: translateX(50%);
+      transform: translatey(-50%); */
+}
+button{
+    margin:10px 20px 50px;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 4px 3px 3px 0px rgb(95, 89, 89);
+    
+}
+.foot{
+    display: flex;
+    /* background-color: rgb(156, 179, 179); */
+    justify-content: space-between;
+}
+.option-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
